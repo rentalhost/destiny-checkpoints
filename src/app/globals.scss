@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-sm;
+  @apply lg:text-base;
+}
+
+body {
+  @apply flex h-[100vh] flex-col;
+}
+
+main {
+  @apply flex-1;
+}

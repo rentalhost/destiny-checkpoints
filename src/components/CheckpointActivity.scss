@@ -17,7 +17,7 @@
 
   &:hover {
     > .imageBlock > img {
-      @apply scale-110;
+      @apply scale-110 grayscale-0;
     }
 
     > .text {
@@ -31,7 +31,7 @@
     @apply relative max-h-40 w-full overflow-hidden;
 
     > img {
-      @apply w-full  transition;
+      @apply w-full grayscale-[50%] transition;
     }
 
     > h2 {

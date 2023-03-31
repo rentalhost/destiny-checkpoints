@@ -14,7 +14,8 @@ export const Header = () => {
   return (
     <header
       className="Header"
-      style={{ backgroundImage: `url(${appContext.emblem?.emblemUrl})` }}>
+      style={{ backgroundImage: `url(${appContext.emblem?.emblemUrl})` }}
+    >
       <div className="container">
         <div className="title">
           <Image

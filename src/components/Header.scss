@@ -1,0 +1,15 @@
+.Header {
+  @apply bg-gray-800 py-3 text-white;
+  background-size: 100%;
+  background-position-y: center;
+
+  > .container {
+    @apply flex items-center justify-between;
+
+    > .title {
+      @apply flex items-center gap-4;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+  }
+}

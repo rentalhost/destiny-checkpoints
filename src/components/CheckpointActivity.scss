@@ -1,0 +1,73 @@
+.CheckpointActivity {
+  --fullness-bar-bg: theme("colors.green.700");
+  --fullness-bar-contents: theme("colors.green.600");
+
+  &[data-fullness="half"] {
+    --fullness-bar-bg: theme("colors.orange.700");
+    --fullness-bar-contents: theme("colors.orange.600");
+  }
+
+  &[data-fullness="full"] {
+    --fullness-bar-bg: theme("colors.red.700");
+    --fullness-bar-contents: theme("colors.red.600");
+  }
+
+  @apply relative flex cursor-pointer flex-col overflow-hidden rounded-md border-slate-900 bg-white text-white transition;
+  @apply bg-clip-text shadow-md shadow-slate-700;
+
+  &:hover {
+    > .imageBlock > img {
+      @apply scale-110;
+    }
+
+    > .text {
+      > h3 {
+        @apply bg-slate-900 brightness-125;
+      }
+    }
+  }
+
+  > .imageBlock {
+    @apply relative max-h-40 w-full overflow-hidden;
+
+    > img {
+      @apply w-full  transition;
+    }
+
+    > h2 {
+      @apply absolute bottom-0 left-0 rounded-tr-md bg-black bg-opacity-60 px-2 py-1 text-sm;
+    }
+
+    > .difficulty {
+      @apply absolute right-0 top-0 rounded-bl-md bg-slate-900 px-2 py-1 text-sm;
+    }
+  }
+
+  > .text {
+    @apply flex flex-1 flex-col;
+
+    > h1 {
+      @apply flex-1 bg-slate-800 px-4 py-6 text-xl font-medium text-white;
+    }
+
+    > .fireteam {
+      @apply z-10 bg-[var(--fullness-bar-bg)] text-xs;
+
+      > .wrapper {
+        @apply -my-[0.6rem] mx-auto w-fit rounded bg-[var(--fullness-bar-contents)] px-2 py-1;
+
+        > .icon {
+          @apply mr-1.5 inline-block text-[0.7rem];
+        }
+
+        > .max {
+          @apply before:content-["_/_"];
+        }
+      }
+    }
+
+    > h3 {
+      @apply bg-slate-900 py-4 text-center text-sm font-medium text-white;
+    }
+  }
+}

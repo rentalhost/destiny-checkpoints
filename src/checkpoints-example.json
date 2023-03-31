@@ -1,0 +1,169 @@
+{
+  "official": [
+    {
+      "name": "CheckpointBot#0422",
+      "activity": "Last Wish",
+      "activityHash": 2122313384,
+      "encounter": "Shuro-Chi",
+      "players": 5,
+      "maxPlayers": 6,
+      "difficultyTier": 1,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_beanstalk.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/cfe45e188245bb89a08efa3f481024da.png",
+      "discordEmoji": "\u003c:LastWish:1087166644125716580\u003e",
+      "displayOrder": 11
+    },
+    {
+      "name": "CheckpointBot#8880",
+      "activity": "Pit of Heresy",
+      "activityHash": 2582501063,
+      "encounter": "Zulmak",
+      "players": 3,
+      "maxPlayers": 3,
+      "difficultyTier": 1,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/dungeon_pit_of_heresy.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/8324b51bcc4989abe18fa0477b6d22e1.png",
+      "discordEmoji": "\u003c:PitOfHeresy:1087166645115564212\u003e",
+      "displayOrder": 44
+    },
+    {
+      "name": "CheckpointBot#6113",
+      "activity": "Deep Stone Crypt",
+      "activityHash": 910380154,
+      "encounter": "Taniks",
+      "players": 2,
+      "maxPlayers": 6,
+      "difficultyTier": 1,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/europa-raid-deep-stone-crypt.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/85600cab548e2a5d7c1b9b54e171503f.png",
+      "discordEmoji": "\u003c:DeepStoneCrypt:1087166603201880114\u003e",
+      "displayOrder": 63
+    },
+    {
+      "name": "CheckpointBot#4108",
+      "activity": "Vow of the Disciple: Normal",
+      "activityHash": 1441982566,
+      "encounter": "Rhulk",
+      "players": 5,
+      "maxPlayers": 6,
+      "difficultyTier": 2,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_nemesis.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/ed4eb907ad758ec164516a07fb4f6241.png",
+      "discordEmoji": "\u003c:VowOfTheDisciple:1087166601247326278\u003e",
+      "displayOrder": 113
+    },
+    {
+      "name": "CheckpointBot#2845",
+      "activity": "Vow of the Disciple: Master",
+      "activityHash": 3889634515,
+      "encounter": "Rhulk",
+      "players": 1,
+      "maxPlayers": 6,
+      "difficultyTier": 3,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_nemesis.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/ed4eb907ad758ec164516a07fb4f6241.png",
+      "discordEmoji": "\u003c:VowOfTheDisciple:1087166601247326278\u003e",
+      "displayOrder": 123
+    },
+    {
+      "name": "CheckpointBot#3587",
+      "activity": "Spire of the Watcher: Normal",
+      "activityHash": 1262462921,
+      "encounter": "Persys, Primordial Ruin",
+      "players": 3,
+      "maxPlayers": 3,
+      "difficultyTier": 2,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/dungeon_spire_of_the_watcher.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/e3377923c790bbf82e3562bac4402cc2.png",
+      "discordEmoji": "\u003c:SpireOfTheWatcher:1087166647078502400\u003e",
+      "displayOrder": 172
+    },
+    {
+      "name": "CheckpointBot#8653",
+      "activity": "Spire of the Watcher: Master",
+      "activityHash": 2296818662,
+      "encounter": "Persys, Primordial Ruin",
+      "players": 2,
+      "maxPlayers": 3,
+      "difficultyTier": 3,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/dungeon_spire_of_the_watcher.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/e3377923c790bbf82e3562bac4402cc2.png",
+      "discordEmoji": "\u003c:SpireOfTheWatcher:1087166647078502400\u003e",
+      "displayOrder": 182
+    },
+    {
+      "name": "CheckpointBot#3036",
+      "activity": "Root of Nightmares: Normal",
+      "activityHash": 2381413764,
+      "encounter": "Nezarec",
+      "players": 3,
+      "maxPlayers": 6,
+      "difficultyTier": 2,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_root_of_nightmares.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/d6cec18c20fa432d23189aecf9a0fcc2.png",
+      "discordEmoji": "\u003c:RootOfNightmares:1087166598231621632\u003e",
+      "displayOrder": 193
+    },
+    {
+      "name": "CheckpointBot#1883",
+      "activity": "Root of Nightmares: Master",
+      "activityHash": 2918919505,
+      "encounter": "Nezarec",
+      "players": 2,
+      "maxPlayers": 6,
+      "difficultyTier": 3,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_root_of_nightmares.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/d6cec18c20fa432d23189aecf9a0fcc2.png",
+      "discordEmoji": "\u003c:RootOfNightmares:1087166598231621632\u003e",
+      "displayOrder": 203
+    }
+  ],
+  "subscription": [
+    {
+      "name": "https://patreon.com/d2checkpoint/",
+      "activity": "Last Wish",
+      "activityHash": 2122313384,
+      "encounter": "Kalli",
+      "players": 1,
+      "maxPlayers": 6,
+      "difficultyTier": 1,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_beanstalk.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/cfe45e188245bb89a08efa3f481024da.png",
+      "discordEmoji": "\u003c:LastWish:1087166644125716580\u003e",
+      "displayOrder": 10
+    },
+    {
+      "name": "https://patreon.com/d2checkpoint/",
+      "activity": "Vow of the Disciple: Normal",
+      "activityHash": 1441982566,
+      "encounter": "Acquisition",
+      "players": 1,
+      "maxPlayers": 6,
+      "difficultyTier": 2,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_nemesis.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/ed4eb907ad758ec164516a07fb4f6241.png",
+      "discordEmoji": "\u003c:VowOfTheDisciple:1087166601247326278\u003e",
+      "displayOrder": 110
+    },
+    {
+      "name": "https://patreon.com/d2checkpoint/",
+      "activity": "Root of Nightmares: Normal",
+      "activityHash": 2381413764,
+      "encounter": "Cataclysm",
+      "players": 1,
+      "maxPlayers": 6,
+      "difficultyTier": 2,
+      "imgURL": "https://www.bungie.net/img/destiny_content/pgcr/raid_root_of_nightmares.jpg",
+      "iconURL": "https://www.bungie.net/common/destiny2_content/icons/d6cec18c20fa432d23189aecf9a0fcc2.png",
+      "discordEmoji": "\u003c:RootOfNightmares:1087166598231621632\u003e",
+      "displayOrder": 190
+    }
+  ],
+  "community": null,
+  "lastUpdated": 1680296851,
+  "randEmblem": {
+    "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/c040d9f4ad502056f0302b432529700e.jpg",
+    "backgroundColor": { "red": 3, "green": 3, "blue": 11 }
+  },
+  "alert": { "alertActive": false, "alertText": "" }
+}

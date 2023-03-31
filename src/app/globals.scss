@@ -12,5 +12,19 @@ body {
 }
 
 main {
-  @apply flex-1;
+  @apply flex-1 bg-gradient-to-b from-slate-600 to-slate-700;
+
+  > .container {
+    @apply flex h-full py-10;
+    @apply lg:py-20;
+
+    > .activities {
+      @apply grid w-full content-center gap-6;
+      @apply md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5;
+    }
+  }
+}
+
+.container {
+  @apply mx-auto max-w-[90rem] px-8;
 }

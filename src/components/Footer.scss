@@ -1,0 +1,7 @@
+.Footer {
+  @apply bg-gray-800 py-4 text-center text-white;
+
+  > .container > .additional {
+    @apply opacity-40;
+  }
+}

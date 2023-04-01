@@ -1,4 +1,5 @@
 import checkpointsExample from "@/checkpoints-example.json";
+import { doFetch } from "@/services/FetchService";
 
 type CheckpointAlert =
   | { alertActive: false }
@@ -9,7 +10,7 @@ export interface CheckpointEmblem {
   backgroundColor: { red: number; green: number; blue: number };
 }
 
-interface CheckpointResponse {
+export interface CheckpointResponse {
   official: CheckpointActivityResponse[] | null;
   community: CheckpointActivityResponse[] | null;
   lastUpdate: number;
@@ -117,10 +118,11 @@ export class Checkpoint {
   }
 }
 
+export const getCheckpointMock = async () =>
+  checkpointsExample as unknown as CheckpointResponse;
+
 export const getCheckpoint = async () =>
-  new Checkpoint(
-    checkpointsExample as unknown as CheckpointResponse
-    // await doFetch<CheckpointResponse>(
-    //   "https://d2cp.io/platform/checkpoints?emblem=rand"
-    // )
+  doFetch<CheckpointResponse>(
+    "https://d2cp.io/platform/checkpoints?emblem=rand",
+    { next: { revalidate: 10 } }
   );

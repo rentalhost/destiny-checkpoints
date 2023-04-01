@@ -1,6 +1,6 @@
 import { Poppins } from "next/font/google";
 
-import { MasterComponent } from "@/app/MasterComponent";
+import { Master } from "@/app/Master";
 
 import "./globals.scss";
 
@@ -13,7 +13,7 @@ export default ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="pt-br">
       <body className={poppins.className}>
-        <MasterComponent children={children} />
+        <Master children={children} />
       </body>
     </html>
   );

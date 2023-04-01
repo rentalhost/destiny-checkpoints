@@ -1,2 +1,4 @@
-export const doFetch = async <T>(uri: string): Promise<T> =>
-  fetch(uri).then(async (r) => r.json());
+export const doFetch = async <T>(
+  uri: string,
+  options?: RequestInit
+): Promise<T> => fetch(uri, options).then(async (r) => r.json());

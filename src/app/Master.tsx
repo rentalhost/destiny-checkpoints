@@ -12,11 +12,7 @@ import {
   type AvailableLanguages,
 } from "@/services/TranslationService";
 
-export const MasterComponent = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const Master = ({ children }: { children: React.ReactNode }) => {
   const [emblem, setEmblem] = useState<CheckpointEmblem>();
   const [language, setLanguage] = useState<AvailableLanguages>("en");
 

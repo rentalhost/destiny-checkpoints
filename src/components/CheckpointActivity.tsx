@@ -45,9 +45,10 @@ export const CheckpointActivity = ({ activity }: CheckpointActivityProps) => {
       <div className="imageBlock">
         <Image
           src={activity.image}
-          width={520}
-          height={520}
+          width={256}
+          height={256}
           alt={activity.bot}
+          quality={100}
         />
 
         <h2>{t(appContext.language, activity.activity)}</h2>
